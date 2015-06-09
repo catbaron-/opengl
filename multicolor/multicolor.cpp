@@ -57,7 +57,7 @@ void display(){
     gluQuadricDrawStyle(quadricObj, GLU_FLAT);
     float cy_hight = 0.5;
     //gltDrawUnitAxes();
-    glTranslatef(0.0, 0.0, -1.8);
+    glTranslatef(0.0, 0.0, -2);
 
     glPushMatrix();
     glRotatef(90, 1, 0, 0);
